@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Secret Place to Talk</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Top Navigation Bar -->
+    <header class="top-nav">
+      <div class="logo">Secret <span>Place to Talk</span></div>
+      <nav class="nav-links">
+        <a href="#">Explore</a>
+        <a href="#">Chat</a>
+        <a href="#">Create</a>
+        <a href="#">Me</a>
+        <button class="dark-mode-toggle">🌙</button>
+      </nav>
+    </header>
+
+    <div class="container">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <h3>Rooms</h3>
+        <input type="text" class="search-box" placeholder="Search Rooms..." />
+        <ul class="room-categories">
+          <li><a href="#">📢 Public</a></li>
+          <li><a href="#">🔒 Private</a></li>
+          <li><a href="#">🔥 Trending</a></li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#">🗨️ Adda <span class="room-count">(12)</span></a>
+          </li>
+          <li>
+            <a href="#">⚡ Flexroom <span class="room-count">(8)</span></a>
+          </li>
+          <li>
+            <a href="#">🎬 bolly_talks <span class="room-count">(20)</span></a>
+          </li>
+          <li>
+            <a href="#">🔥 hot_topics <span class="room-count">(15)</span></a>
+          </li>
+        </ul>
+        <button class="create-room">+ Create Room</button>
+        <button class="search-room">🔍 Search Room</button>
+      </aside>
+
+      <!-- Main Chat Section -->
+      <main class="chat-area">
+        <h2>NOTEBOOK 📖</h2>
+        <div class="chat-message">
+          <h4>anon007 <span class="typing">is typing...</span></h4>
+          <p>
+            Figma, Webflow, or Framer. Which one will take the lead in 2023?
+          </p>
+          <span>1.1M 💬 | 1,240 ❤️ | 5,579 🔁 | 3,987 ⭐</span>
+        </div>
+        <div class="chat-message">
+          <h4>spy420</h4>
+          <p>
+            Figma, Webflow, or Framer. Which one will take the lead in 2023?
+          </p>
+          <span>1.1M 💬 | 1,240 ❤️ | 5,579 🔁 | 3,987 ⭐</span>
+        </div>
+      </main>
+
+      <!-- Chat Sidebar -->
+      <aside class="chat-sidebar">
+        <h3>Chats</h3>
+        <input type="text" class="search-box" placeholder="Search Chats..." />
+        <ul>
+          <li>
+            <a href="#"><span class="online">🟢</span> anon007</a>
+          </li>
+          <li>
+            <a href="#"><span class="online">🟢</span> secret26</a>
+          </li>
+          <li>
+            <a href="#"
+              ><span class="offline">🔴</span> spy420
+              <span class="last-seen">(Last seen 5 min ago)</span></a
+            >
+          </li>
+          <li>
+            <a href="#"><span class="online">🟢</span> xyz009</a>
+          </li>
+        </ul>
+      </aside>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
